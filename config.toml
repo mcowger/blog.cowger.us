@@ -1,4 +1,4 @@
-baseurl = "https://blog.cowger.us/" # Make sure to end baseurl with a '/'
+#baseurl = "https://blog.cowger.us/" # Make sure to end baseurl with a '/'
 title = "blog.cowger.us"
 author = "Matt Cowger"
 # Shown in the side menu
