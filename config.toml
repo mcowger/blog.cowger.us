@@ -7,10 +7,7 @@ title = "blog.cowger.us"
 [indexes]
 tag = "tags"
 topic = "topics"
-[[menu.main]]
-name = "Historical Content"
-url = "https://github.com/mcowger/old_blog/tree/master/_posts"
-weight = 1
+
 [[menu.main]]
 identifier = "about"
 name = "About"
@@ -23,6 +20,11 @@ name = "Posts"
 pre = "<i class='fa fa-list fa-fw'></i>"
 url = "/post/"
 weight = 2
+[[menu.main]]
+pre = "<i class='fa fa-list fa-fw'></i>"
+name = "Historical Content"
+url = "https://github.com/mcowger/old_blog/tree/master/_posts"
+weight = 3
 [[menu.main]]
 identifier = "home"
 name = "Home"
