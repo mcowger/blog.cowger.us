@@ -1,68 +1,46 @@
-#baseurl = "https://blog.cowger.us/" # Make sure to end baseurl with a '/'
-title = "blog.cowger.us"
 author = "Matt Cowger"
-# Shown in the side menu
-copyright = "&copy; 2018. All rights reserved."
 canonifyurls = true
+copyright = "&copy; 2018. All rights reserved."
 paginate = 10
 theme = "blackburn"
-
-
+title = "blog.cowger.us"
 [indexes]
-  tag = "tags"
-  topic = "topics"
-
+tag = "tags"
+topic = "topics"
+[[menu.main]]
+name = "Historical Content"
+url = "https://github.com/mcowger/old_blog/tree/master/_posts"
+weight = 1
+[[menu.main]]
+identifier = "about"
+name = "About"
+pre = "<i class='fa fa-user fa-fw'></i>"
+url = "/about/"
+weight = 3
+[[menu.main]]
+identifier = "post"
+name = "Posts"
+pre = "<i class='fa fa-list fa-fw'></i>"
+url = "/post/"
+weight = 2
+[[menu.main]]
+identifier = "home"
+name = "Home"
+pre = "<i class='fa fa-home fa-fw'></i>"
+url = "/"
+weight = 1
 [params]
-  # Shown in the home page
-  subtitle = "rants on platforms, formula 1, containers, python, devops, and good technical choices"
-  brand = "matt cowger"
-  googleAnalytics = "Your Google Analytics tracking ID"
-  disqus = "Your Disqus shortname"
-  # CSS name for highlight.js
-  highlightjs = "androidstudio"
-  highlightjs_extra_languages = ["yaml"]
-  dateFormat = "02 Jan 2006, 15:04"
-  # Include any custom CSS and/or JS files
-  # (relative to /static folder)
-  custom_css = ["css/my.css"]
-  custom_js = ["js/my.js"]
-
-
-
-[menu]
-  # Shown in the side menu.
-  [[menu.main]]
-    name = "Home"
-    pre = "<i class='fa fa-home fa-fw'></i>"
-    weight = 1
-    identifier = "home"
-    url = "/"
-  [[menu.main]]
-    name = "Posts"
-    pre = "<i class='fa fa-list fa-fw'></i>"
-    weight = 2
-    identifier = "post"
-    url = "/post/"
-  [[menu.main]]
-    name = "About"
-    pre = "<i class='fa fa-user fa-fw'></i>"
-    weight = 3
-    identifier = "about"
-    url = "/about/"
-
-
+brand = "matt cowger"
+custom_css = ["css/my.css"]
+custom_js = ["js/my.js"]
+dateformat = "2006-01-02T00:00:00+00:00"
+disqus = "Your Disqus shortname"
+googleanalytics = "Your Google Analytics tracking ID"
+highlightjs = "androidstudio"
+highlightjs_extra_languages = ["yaml"]
+subtitle = "rants on platforms, formula 1, containers, python, devops, and good technical choices"
 [social]
-  # Link your social networking accounts to the side menu
-  # by entering your username or ID.
-
-  # SNS microblogging
-  twitter = "mcowger"
-
-  # SNS photo/video sharing
-
-  youtube = "mcowger"
-
-
-  # SNS career oriented
-  linkedin = "mcowger"
-  github = "mcowger"
+github = "mcowger"
+linkedin = "mcowger"
+twitter = "mcowger"
+youtube = "mcowger"
