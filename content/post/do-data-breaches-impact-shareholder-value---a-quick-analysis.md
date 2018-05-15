@@ -1,20 +1,8 @@
 +++
-date = "2018-05-15T21:14:02+00:00"
+date = "2015-10-27T21:14:02+00:00"
 title = "Do Data Breaches Impact Shareholder Value - A Quick Analysis"
 
 +++
----
-layout: post
-title: Do Data Breaches Impact Shareholder Value - A Quick Analysis
-author: mcowger
-categories:
-  - data
-  - security
-  - breach
-  - twitter
-published: true
-comments: true
----
 
 I had an interesting chat on twitter today with a friend and colleague Wade O'Harrow.  He used to be at a bunch of places, but currently leads the SE team for HyTrust, a security company (yes, thats oversimplifying it).  He started the exhange with:  
 
