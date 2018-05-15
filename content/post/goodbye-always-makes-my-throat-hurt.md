@@ -1,6 +1,5 @@
 +++
 date = "2018-04-19T20:53:20+00:00"
-draft = true
 title = "Goodbye Always Makes My Throat Hurt"
 
 +++
