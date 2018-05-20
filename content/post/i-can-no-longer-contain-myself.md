@@ -8,13 +8,13 @@ It's been about a month [since I left Dell](https://blog.cowger.us/post/goodbye-
 
 I've spent my time off productively, in my opinion, doing things like:
 
-* building an ARM/oDroid C2 based K8S cluster
+* building an ARM/[oDroid C2 based](http://www.hardkernel.com/main/products/prdt_info.php?g_code=G145457216438) K8S cluster
 * getting Intel QuickSync/Plex working under Docker on unRaid 6
 * remodeling our downstairs bathroom
-* cleaning up my GitHub repos
+* cleaning up my [GitHub](https://github.com/mcowger?tab=repositories) repos
 * taking my daughters to school and participating as field trip chaperone
 * rebuilding my blog
-* taking my daughters to the Maker Faire
+* [taking my daughters to the Maker Faire](https://makerfaire.com/bay-area/)
 
 Of course, in that time period, I've been looking for a new challenge.  Allow me to start by saying I am quite thankful for the amount of support and messages I received offering introductions, ideas and work.   I was able to reconnect with so many friends and colleagues, and I am exceptionally grateful.
 
