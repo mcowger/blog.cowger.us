@@ -1,6 +1,8 @@
 ---
 post_title: End of an Era
-publish_date: 2017-03-20 07:00:00 +0000
+publish_date: 2017-03-20 00:00:00 -0700
+title: End of an Era
+date: 2017-03-20 00:00:00 -0700
 
 ---
 No - I'm not leaving Dell 😊.
