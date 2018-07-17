@@ -1,11 +1,9 @@
 ---
+post_title: Goodby Always Makes My Throat Hurt
+publish_date: 2018-04-19 13:53:20 -0700
 
 ---
-+++
-date = "2018-04-19T20:53:20+00:00"
-title = "Goodbye Always Makes My Throat Hurt"
 
-+++
 > “Every new beginning comes from some other beginnings end”  — **Semisonic**
 
 It’s that time for me.
@@ -50,8 +48,7 @@ You all, willingly and not, embarked on an experiment with me.  An experiment ar
 
 I don’t know yet where I am headed - lots of neat things happening in this industry.   But you know where to find me on twitter and figure it out.
 
-My last official day at Dell is [May 4.](x-apple-data-detectors://5)  
-
+My last official day at Dell is [May 4.](x-apple-data-detectors://5)
 
 Winnie the Pooh said it best:
 
