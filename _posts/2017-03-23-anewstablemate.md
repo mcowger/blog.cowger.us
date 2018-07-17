@@ -1,28 +1,29 @@
-+++
-date = "2017-03-23T21:09:21+00:00"
-title = "A New Stablemate"
+---
+publish_date: 2017-03-23 14:09:21 -0700
+post_title: A New Stablemate
 
-+++
+---
+
 [Last week](http://exaforge.com/blog/2017/03/20/end-of-an-era) I noted that I had come to the end of the 3 year lease of my Ford Focus Electric - my first electric car.  At the time, I didn't indicate what replaced it, which is what this post will cover.
 
 **Requirements**: I learned a lot about my needs in the last 3 years.  I used that to inform my next set of requirements.
 
- 1. **200+ miles range**.  Range anxiety on an electric car is a real thing.  Having to charge when to you get to work in order to get home sucks.  Having to wait hours for that charge when you watch traffic getting worse sucks too.
- 2. **DC Fast Charge support**.  I live in the Bay Area, so we have a very solid L2 charging network, but also a very solid L3/DC fast charging network.   These babies can push 24-150kW into the car, and as a result can add 100+ miles of range in only ~30 minutes.  The most common / available standards in the Bay Area are the Japanese ChaDeMO standard and the SAE CCS/Combo standard.  Either is fine with me.  Surprisingly, there aren't many Tesla Superchargers here - basically only 1 in Fremont.
- 3.  **HOV Lane Access**.  The sticker you get with certain kinds of battery-based cars in the Bay allows you to use the HOV lane regardless of number of people in the vehicle.  All other things being equal, that access drops my drive to Santa Clara from Oakland by about 40-55 minutes during rush hour.  Thats the difference between being able to wake my girls up in the morning and make them breakfast vs. having to leave the house while they are still asleep.
- 4. **Battery Only**. The above HOV access is good until at least 2020 for battery cars, but only 2018 for 'hybrid' cars like the Volt or BMW i3 REX.
- 5. **Standard or Augemented Visiblity**.  Either great visibility through the windows (less and less common with cars trying to reduce their drag coefficients) or great camera-based systems to make up for it.
- 6. **Available Today**.  My lease on the focus is ending...I can't be without a car for unknown amounts of time waiting for a manufacturer to ship.
- 7. **Less than $50,000 USD**, Used or New.
+1. **200+ miles range**.  Range anxiety on an electric car is a real thing.  Having to charge when to you get to work in order to get home sucks.  Having to wait hours for that charge when you watch traffic getting worse sucks too.
+2. **DC Fast Charge support**.  I live in the Bay Area, so we have a very solid L2 charging network, but also a very solid L3/DC fast charging network.   These babies can push 24-150kW into the car, and as a result can add 100+ miles of range in only \~30 minutes.  The most common / available standards in the Bay Area are the Japanese ChaDeMO standard and the SAE CCS/Combo standard.  Either is fine with me.  Surprisingly, there aren't many Tesla Superchargers here - basically only 1 in Fremont.
+3. **HOV Lane Access**.  The sticker you get with certain kinds of battery-based cars in the Bay allows you to use the HOV lane regardless of number of people in the vehicle.  All other things being equal, that access drops my drive to Santa Clara from Oakland by about 40-55 minutes during rush hour.  Thats the difference between being able to wake my girls up in the morning and make them breakfast vs. having to leave the house while they are still asleep.
+4. **Battery Only**. The above HOV access is good until at least 2020 for battery cars, but only 2018 for 'hybrid' cars like the Volt or BMW i3 REX.
+5. **Standard or Augemented Visiblity**.  Either great visibility through the windows (less and less common with cars trying to reduce their drag coefficients) or great camera-based systems to make up for it.
+6. **Available Today**.  My lease on the focus is ending...I can't be without a car for unknown amounts of time waiting for a manufacturer to ship.
+7. **Less than $50,000 USD**, Used or New.
 
 **Non Requirements - Nice To Have**.
 
- 5. **Self Driving Capability**.  It sure is handy!  And cool as shit. This comes in a range, with the top being what Tesla is capable of, or something more sedate like adaptive cruise control.
- 6. **Safety Sensors**.  These can often be part of self driving systems, or separate safety systems like blind stop monitors.  These have prevented accidents for me more than once, and there are some accidents I've had without them that I've sure *would* have been prevented.
+1. **Self Driving Capability**.  It sure is handy!  And cool as shit. This comes in a range, with the top being what Tesla is capable of, or something more sedate like adaptive cruise control.
+2. **Safety Sensors**.  These can often be part of self driving systems, or separate safety systems like blind stop monitors.  These have prevented accidents for me more than once, and there are some accidents I've had without them that I've sure _would_ have been prevented.
 
 **Choices**
 
-Based on those requirements, we eliminated a significant number of vehicles.  The A3 e-Tron, BMW 330e, Chevy Volt, Toyota Prius Prime, etc are out because they are not battery only.  
+Based on those requirements, we eliminated a significant number of vehicles.  The A3 e-Tron, BMW 330e, Chevy Volt, Toyota Prius Prime, etc are out because they are not battery only.
 
 The 200 miles requirement eliminates the BMW i3, Chevy Spark EV, Fiat 500e, Ford Focus Electric, Hyundai Ioniq, Kia Soul EV, Mercedes B-Class, Nissan Leaf, and the Volkwagen eGolf.
 
@@ -40,7 +41,7 @@ It does lack self driving capabilities however, as well as adaptive cruise contr
 
 **So?**
 
-So I bought it.   Well, I leased it...as I suspect just like my Focus that the state of the art will change rapidly still.   In the 3 years since I bought my focus, the 'table stakes' range has gone from ~75 miles to ~200 (nearly 2.5x).  I expect that in 3 more years we'll be looking at 400+ mile ranges and Level 3 self driving being nearly standard.   I look forward to what the 2020 Tesla Model 3 looks like :).
+So I bought it.   Well, I leased it...as I suspect just like my Focus that the state of the art will change rapidly still.   In the 3 years since I bought my focus, the 'table stakes' range has gone from \~75 miles to \~200 (nearly 2.5x).  I expect that in 3 more years we'll be looking at 400+ mile ranges and Level 3 self driving being nearly standard.   I look forward to what the 2020 Tesla Model 3 looks like :).
 
 **Future**
 
