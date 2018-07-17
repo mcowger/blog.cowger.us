@@ -1,6 +1,8 @@
 ---
-post_title: Goodby Always Makes My Throat Hurt
+post_title: Goodbye Always Makes My Throat Hurt
 publish_date: 2018-04-19 13:53:20 -0700
+title: Goodbye Always Makes My Throat Hurt
+date: 2018-05-19 00:00:00 -0700
 
 ---
 
