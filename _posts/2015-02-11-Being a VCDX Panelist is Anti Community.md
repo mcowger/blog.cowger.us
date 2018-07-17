@@ -1,3 +1,6 @@
+---
+
+---
 +++
 date = "2015-02-11T21:15:55+00:00"
 title = "Being a VCDX Panelist is Anti Community"
