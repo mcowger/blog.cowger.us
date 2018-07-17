@@ -18,4 +18,5 @@ fields:
   config:
     required: true
 pages:
+- _posts/2017-11-06-fun-stuff-in-tokyo.md
 - _posts/2017-04-12-a-cloud-foundry-story.md
