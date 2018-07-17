@@ -1,9 +1,0 @@
-[submodule "themes/potato-dark"]
-	path = themes/potato-dark
-	url = https://github.com/surajmandalcell/potato-dark.git
-[submodule "themes/blackburn"]
-	path = themes/blackburn
-	url = https://github.com/yoshiharuyamashita/blackburn.git
-[submodule "themes/purehugo"]
-	path = themes/purehugo
-	url = https://github.com/dplesca/purehugo.git
