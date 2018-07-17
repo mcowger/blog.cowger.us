@@ -1,8 +1,8 @@
 ---
+post_title: A Cloud Foundry Story - Idea to Production in 90 Minutes
+publish_date: 2017-04-12 00:00:00 -0700
 
 ---
-
-A Cloud Foundry Story - Idea to Production in 90 Minutes
 
 One of the best parts of what I do is making demos - they are an awesome combination of playing with the latest technology, making it do something cool (but understandable) and not having to support it for more than a couple months.
 
