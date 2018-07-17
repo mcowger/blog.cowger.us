@@ -1,6 +1,8 @@
 ---
 publish_date: 2017-11-06 05:56:30 -0800
 post_title: Fun Stuff in Tokyo
+title: Fun Stuff in Tokyo
+date: 2017-11-06 00:00:00 -0800
 
 ---
 
