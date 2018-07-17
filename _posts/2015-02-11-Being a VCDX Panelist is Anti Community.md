@@ -1,6 +1,8 @@
 ---
 post_title: Being a VCDX Panelist is Anti-Community
 publish_date: 2015-02-11 00:00:00 -0800
+title: Being a VCDX Panelist is Anti Community
+date: 2015-02-11 00:00:00 -0800
 
 ---
 I've been a VCDX since around Sept 2010, when I passed a VCDX3 series of exams and defense.  At that time, and today still, **community** is one of the most important parts (if not the most important parts) of the program.  I know that if I get a request from a fellow VCDX, its probably important and worth considering in its fullest.
