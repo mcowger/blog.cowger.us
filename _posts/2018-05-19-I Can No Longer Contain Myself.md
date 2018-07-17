@@ -1,6 +1,8 @@
 ---
 post_title: I Can No Longer Contain Myself
 publish_date: 2018-05-19 19:17:21 -0700
+title: I Can No Longer Contain Myself
+date: 2018-05-19 00:00:00 -0700
 
 ---
 
