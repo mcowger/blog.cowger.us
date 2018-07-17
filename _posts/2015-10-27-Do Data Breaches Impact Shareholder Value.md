@@ -1,6 +1,8 @@
 ---
 publish_date: 2015-10-27 14:14:02 -0700
 post_title: Do Data Breaches Impact Shareholder Value
+title: Do Data Breaches Impact Shareholder Value
+date: 2015-10-27 00:00:00 -0700
 
 ---
 
