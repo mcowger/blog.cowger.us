@@ -1,6 +1,8 @@
 ---
 publish_date: 2017-03-23 14:09:21 -0700
 post_title: A New Stablemate
+title: A New Stablemate
+date: 2017-03-23 00:00:00 -0700
 
 ---
 
