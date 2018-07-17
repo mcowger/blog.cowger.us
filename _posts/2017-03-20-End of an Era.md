@@ -1,9 +1,8 @@
 ---
 post_title: End of an Era
-publish_date: 2017-03-20 00:00:00 -0700
+publish_date: 2017-03-20 07:00:00 +0000
 
 ---
-
 No - I'm not leaving Dell 😊.
 
 3 years ago I bought my first fully electric car – a 2014 Ford Focus Electric.  You can read about my [initial impressions](http://exaforge.com/blog/2014/07/03/buying-an-electric-car-part-2-first-commutes.html), but today is for my final ones, because my 3 year lease is up.
