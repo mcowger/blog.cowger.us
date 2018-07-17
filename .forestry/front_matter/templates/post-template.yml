@@ -19,3 +19,4 @@ fields:
     required: true
 pages:
 - _posts/a-cloud-foundry-story.md
+- _posts/12-factors-in-the-real-world.md
