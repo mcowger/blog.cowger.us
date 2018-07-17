@@ -1,6 +1,8 @@
 ---
 publish_date: 2016-08-19 14:13:05 -0700
 post_title: 12 Factors in the Real World
+title: 12 Factors In The Real World
+date: 2016-08-16 00:00:00 -0700
 
 ---
 
