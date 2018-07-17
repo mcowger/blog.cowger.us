@@ -1,9 +1,7 @@
-+++
-date = "2015-09-04T21:14:56+00:00"
-draft = true
-title = "A Cloud Foundry Story"
+---
 
-+++
+---
+
 A Cloud Foundry Story - Idea to Production in 90 Minutes
 
 One of the best parts of what I do is making demos - they are an awesome combination of playing with the latest technology, making it do something cool (but understandable) and not having to support it for more than a couple months.
@@ -34,27 +32,27 @@ So from there, we got started with coming up with a solution.  We built a functi
 
 {% highlight python  %}
 def check_porn(check_url):
-    worker_logger.info("Checking URL: {}".format(check_url))
-    if not check_url:
-        return False
-    response = requests.post(url="http://sitereview.bluecoat.com/rest/categorization/", data={"url":check_url}).json()
+worker_logger.info("Checking URL: {}".format(check_url))
+if not check_url:
+return False
+response = requests.post(url="http://sitereview.bluecoat.com/rest/categorization/", data={"url":check_url}).json()
 
     if re.search("adult|mature|sex|porn|extreme",response['categorization']):
         print("PORN FOUND")
-
+    
         worker_logger.warn("Found porn: {}".format(check_url))
         worker_logger.warn("Category: {}".format(response['categorization']))
         return True
     worker_logger.debug("No Porn Found")
     return False
+
 {% endhighlight %}
 
-And this was a *great* start, and seemed to catch much of the problem from this particular botnet/sender.  The downside to this model is that we are now doing a relatively expensive external check for many tweets, which slows down processing.  We absorbed that degradation of throughput by increasing the number of workers processing these tweets.
+And this was a _great_ start, and seemed to catch much of the problem from this particular botnet/sender.  The downside to this model is that we are now doing a relatively expensive external check for many tweets, which slows down processing.  We absorbed that degradation of throughput by increasing the number of workers processing these tweets.
 
 > Lesson 3: Microservices and stateless 'workers' allow you to absorb drops in individual performance gracefully.
 
-
-We deployed this code at about 6:02 PM local time - *in other words 90 minutes after the idea*.  This is the promise and achievement of something like cloud foundry and cloud native applications - idea to production in 90 minutes.
+We deployed this code at about 6:02 PM local time - _in other words 90 minutes after the idea_.  This is the promise and achievement of something like cloud foundry and cloud native applications - idea to production in 90 minutes.
 
 > Lesson 4: Platforms that make deployment and testing easy are critical to rapid development
 
@@ -67,8 +65,8 @@ Lastly, we noticed something else while diving through the [Twitter Streaming AP
 As a result, we felt safe droppping every tweet with that property set to true before even performing our more expensive BlueCoat-based check:
 
 {% highlight python %}
-if tweet['possibly_sensitive']:
-    raise Exception("Sensitive Tweet")
+if tweet\['possibly_sensitive'\]:
+raise Exception("Sensitive Tweet")
 {% endhighlight %}
 
 We pushed this change about 30 minutes after the first, and found that for the rest of the show, we didn't have a single objectional tweet displayed on the board for the remainder of the show.
