@@ -11,18 +11,9 @@ fields:
   config:
     required: true
 - type: datetime
-  default: 2018-07-03 00:00:00 -0700
+  default: 2018-07-03 07:00:00 +0000
   label: Publish Date
   name: publish_date
   description: Published Date
   config:
     required: true
-pages:
-- _posts/do-data-breaches-impact-shareholder-value---a-quick-analysis.md
-- _posts/end-of-an-era.md
-- _posts/a-new-stablemate.md
-- _posts/being-a-vcdx-panelist-is-anti-community.md
-- _posts/goodbye-always-makes-my-throat-hurt.md
-- _posts/i-can-no-longer-contain-myself.md
-- _posts/a-cloud-foundry-story.md
-- _posts/12-factors-in-the-real-world.md
