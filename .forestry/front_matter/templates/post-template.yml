@@ -18,6 +18,7 @@ fields:
   config:
     required: true
 pages:
+- _posts/do-data-breaches-impact-shareholder-value---a-quick-analysis.md
 - _posts/end-of-an-era.md
 - _posts/a-new-stablemate.md
 - _posts/being-a-vcdx-panelist-is-anti-community.md
