@@ -1,7 +1,7 @@
 ---
 
 ---
-a VCDX since around Sept 2010, when I passed a VCDX3 series of exams and defense.  At that time, and today still, **community** is one of the most important parts (if not the most important parts) of the program.  I know that if I get a request from a fellow VCDX, its probably important and worth considering in its fullest.
+I've been a VCDX since around Sept 2010, when I passed a VCDX3 series of exams and defense.  At that time, and today still, **community** is one of the most important parts (if not the most important parts) of the program.  I know that if I get a request from a fellow VCDX, its probably important and worth considering in its fullest.
 
 Thats why a recent email from the VCDX Program Manager (who runs the program after[ Mark Brunstad left VMware](http://www.nutanix.com/2014/09/03/mark-brunstad-joins-nutanix/)) has me very concerned.  In that email, which I believe was sent to all VCDX panelists, he wrote:
 
