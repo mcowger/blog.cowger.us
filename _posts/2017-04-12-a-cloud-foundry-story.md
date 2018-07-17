@@ -1,4 +1,6 @@
 ---
+publish_date: 2017-04-12 00:00:00 -0700
+post_title: A Cloud Foundry Story
 
 ---
 

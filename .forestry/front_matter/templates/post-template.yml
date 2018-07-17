@@ -17,3 +17,5 @@ fields:
   description: Published Date
   config:
     required: true
+pages:
+- _posts/2017-04-12-a-cloud-foundry-story.md
