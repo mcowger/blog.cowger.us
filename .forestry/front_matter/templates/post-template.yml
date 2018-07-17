@@ -2,4 +2,18 @@
 label: Post Template
 hide_body: false
 is_partial: false
-fields: []
+fields:
+- type: text
+  default: Title
+  label: Post Title
+  name: post_title
+  description: Post Title
+  config:
+    required: true
+- type: datetime
+  default: 2018-07-03 00:00:00 -0700
+  label: Publish Date
+  name: publish_date
+  description: Published Date
+  config:
+    required: true
