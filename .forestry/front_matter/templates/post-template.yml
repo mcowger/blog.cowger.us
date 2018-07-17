@@ -19,5 +19,6 @@ fields:
     required: true
 pages:
 - _posts/end-of-an-era.md
+- _posts/a-new-stablemate.md
 - _posts/a-cloud-foundry-story.md
 - _posts/12-factors-in-the-real-world.md
