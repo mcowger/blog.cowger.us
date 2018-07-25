@@ -18,3 +18,82 @@ MetalLB fixes that:
 > MetalLB aims to redress this imbalance by offering a Network LB implementation that integrates with standard network equipment, so that external services on bare metal clusters also “just work” as much as possible.
 
 Very cool!   MetalLB has a couple modes...one of them is more 'enterprisey' and focuses on using BGP connections to upstream routers to do some clever route advertisements and achieves some really cool effects.   However, it also has a second mode wherein it simply uses gratuitous L2 ARP requests to 'advertise' itself as willing to accept traffic on a given IP address.   This works GREAT in homelabs.
+
+So lets start to configure that!
+
+The MetalLB helm chart works great out of the box:
+
+    helm install --name metallb stable/metallb
+
+It adds quite a few objects, including namespace, ServiceAccounts, ClusterRoles, RoleBindings, DaemonSets (for the 'speakers' that advertise their relevant VIPs), and a Deployment for its controller.  I've looked through, and the permissions all seem pretty reasonable, and there's even handy annnotations to automatically enable tools like Prometheus to gather the data.  
+
+After all is said and done, you get a full set of everything:
+
+    ╰ kubectl get all --all-namespaces | grep metallb
+    metallb-system   pod/controller-997f5bbb7-rc9kw             1/1       Running   0          4d
+    metallb-system   pod/speaker-262wn                          1/1       Running   0          4d
+    metallb-system   pod/speaker-7gbwr                          1/1       Running   0          4d
+    metallb-system   pod/speaker-dgwq4                          1/1       Running   0          4d
+    metallb-system   daemonset.apps/speaker           3         3         3         3            3           <none>                          4d
+    metallb-system   deployment.apps/controller             1         1         1            1           4d
+    metallb-system   replicaset.apps/controller-997f5bbb7             1         1         1         4d
+
+You'll then need to define a ConfigMap containing the config data (like your IP pool) for the LoadBalancer to use:
+
+    apiVersion: v1
+    kind: ConfigMap
+    metadata:
+      namespace: metallb-system
+      name: config
+    data:
+      config: |
+        address-pools:
+        - name: default
+          protocol: layer2
+          addresses:
+          - 192.168.0.230-192.168.0.250
+
+Now we can deploy a service as a 'LoadBalancer' type rather than a ClusterIP:
+
+First we can deploy an nginx deployment:
+
+    apiVersion: apps/v1
+    kind: Deployment
+    metadata:
+      name: my-nginx
+    spec:
+      selector:
+        matchLabels:
+          run: my-nginx
+      replicas: 1
+      template:
+        metadata:
+          labels:
+            run: my-nginx
+        spec:
+          containers:
+          - name: my-nginx
+            image: nginx
+            ports:
+            - containerPort: 80
+
+Then we can expose a service:
+
+    apiVersion: v1
+    kind: Service
+    metadata:
+      name: my-nginx
+      labels:
+        run: my-nginx
+    spec:
+      type: LoadBalancer
+      ports:
+      - port: 80
+        protocol: TCP
+      selector:
+        run: my-nginx
+    
+
+**_Notice the 'type: LoadBalancer' option_**
+
+And now check it out, not only do I have a cluster IP, but MetalLB has assigned an IP address from the configuration range 
