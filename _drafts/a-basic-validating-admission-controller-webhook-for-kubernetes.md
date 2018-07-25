@@ -12,7 +12,7 @@ So after some brainstorming with the always awesome [Merlin](https://twitter.com
 
 After one registers their webhook with Kubernetes as an AdmissionController, all requests for Pods to be deployed (whether directly or via Deployments, ReplicaSets, etc).  The Webhook can then accept the request, deny the request or, possibly, modify the request.
 
-This customer had asked for a sample of what that might look like, so I wrote up a quick one that validates that a Pod has no environment variables set.  
+This customer had asked for a sample of what that might look like, so I wrote up a quick one that validates that a Pod has no environment variables set.
 
 The request that comes in looks something like this:
 
@@ -92,13 +92,14 @@ def webhook():
 
 
 app.run(host='0.0.0.0', debug=True)
-
 ```
+
 And what we send back to the request is pretty short and sweet:
 
 ```json
 {"response": {"allowed": false}}
 ```
+
 Installing the webhook is as simple as finding a place to host it (you need to enable SSL - Kubernetes doesn't want to do it without SSL), and then adding the yaml to register it:
 
 ```yaml
@@ -122,3 +123,4 @@ webhooks:
       url: "https://webhook.url/"
 ```
 
+You can find a [GitHub repo](https://github.com/mcowger/mutating-webook) for all this in my GitHub page.
