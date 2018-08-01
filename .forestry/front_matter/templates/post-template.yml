@@ -19,7 +19,7 @@ fields:
     required: true
 pages:
 - _posts/direct-pod-access-with-stateful-sets.md
-- _posts/nfs-on-synology.md
+- _posts/2018-07-03-nfs-on-synology.md
 - _posts/2018-07-25-using-kubernetes-externaldns-with-a-home-bare-metal-k8s.md
 - _posts/2018-07-26-using-kubernetes-externaldns-metallb-with-a-home-bare-metal-k8s-part-2.md
 - _posts/2017-11-06-fun-stuff-in-tokyo.md
