@@ -1,5 +1,5 @@
 ---
-title: ScaleIO on PKS
+title: BOSH Addon for ScaleIO on PKS
 date: 2018-08-01 00:00:00 -0700
 
 ---
@@ -30,7 +30,18 @@ addons:
           mdm:
             ips: 
               - 10.192.225.105
-
 ```
 
-Simply
+Simply update the runtime config for BOSH:
+
+`bosh update-runtime-config manifest.yml`
+
+And then, if desired, force BOSH to redeploy:
+
+` bosh manifest -d current-deployment-name > deployment.yaml`
+
+`bosh -d current-deployment-name deploy`
+
+And wait a bit.   Eventually, you'll end up with brand new VMs with the ScaleIO kernel driver and `drv_cfg` installed.
+
+In a future post I'll show how to use with with the VxFlexOS CSI driver in K8S/PKS.
