@@ -45,3 +45,5 @@ And then, if desired, force BOSH to redeploy:
 And wait a bit.   Eventually, you'll end up with brand new VMs with the ScaleIO kernel driver and `drv_cfg` installed.
 
 In a future post I'll show how to use with with the VxFlexOS CSI driver in K8S/PKS.
+
+Credits:  Lets be honest:  I'm a newb with BOSH.  [Stu Charlton ](https://twitter.com/svrc)taught me how to do nearly all of this, and is 90% of the reason I got it work.   Thanks Stu.
