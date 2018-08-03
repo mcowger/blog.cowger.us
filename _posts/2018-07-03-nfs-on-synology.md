@@ -1,6 +1,6 @@
 ---
 title: Kubernetes NFS on Synology
-date: 2018-07-03 07:00:00 +0000
+date: 2018-08-03 00:00:00 -0700
 
 ---
 In my ongoing quest to pretend that my Kubernetes homelab resembles a real datacenter, I've set up [automated DNS](https://blog.cowger.us/2018/07/26/using-kubernetes-externaldns-metallb-with-a-home-bare-metal-k8s-part-2.html) and even a [software LoadBalancer](https://blog.cowger.us/2018/07/25/using-kubernetes-externaldns-with-a-home-bare-metal-k8s.html).
