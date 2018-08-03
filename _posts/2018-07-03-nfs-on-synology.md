@@ -7,7 +7,7 @@ In my ongoing quest to pretend that my Kubernetes homelab resembles a real datac
 
 The next step is to enable external storage for persistent applications.  There's a ton of options for this, including [Rook](https://rook.io/), [ScaleIO/VxFlexOS](https://github.com/thecodeteam/csi-scaleio), and even a [self-hosted NFS setup](https://github.com/kubernetes-incubator/external-storage/tree/master/nfs).   But I already have a very nice SOHO storage system, a [Synology DS918+](https://www.synology.com/en-us/products/DS918+) with 8TB of space and a 1TB read/write cache....I have no need for something else.
 
-What I wanted to do was to use my Synology NFS server as a persistent store.   Turns out there is a `[nfs-client](https://github.com/kubernetes-incubator/external-storage/tree/master/nfs-client)`[ provisioner](https://github.com/kubernetes-incubator/external-storage/tree/master/nfs-client) that simply creates folders on an existing NFS shares and mounts them into containers.  Its not the most secure thing out there, but it will work for my home lab.
+What I wanted to do was to use my Synology NFS server as a persistent store.   Turns out there is a [nfs-client provisioner](https://github.com/kubernetes-incubator/external-storage/tree/master/nfs-client) that simply creates folders on an existing NFS shares and mounts them into containers.  Its not the most secure thing out there, but it will work for my home lab.
 
 First, I needed to create a share that I would use, and enable the proper options on the Synology:
 
