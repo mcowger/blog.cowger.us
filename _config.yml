@@ -38,5 +38,5 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-theme: jekyll-theme-hacker
+theme: jekyll-theme-midnight
 show_excerpts: true
