@@ -1,3 +1,8 @@
+---
+title: Mac Browser Shootout
+date: 2018-08-06 00:00:00 -0700
+
+---
 I wanted to see which modern browser was the fastest on my Mac laptop, but I don't trust out of date benchmarks posted by CNET, and I run beta browsers with a bunch of plugins enabled...some of which can impact performance (like ad blockers).
 
 I've seen all the claims that Safari is better than Chrome, but a claim without data is just a story, and I haven't seen any tests that included the use of plugins. So I ran my own [Web 3 Basemark Tests](http://web.basemark.com/), in a loop loading a specified Gmail folder as well as my reddit home page until my battery died.
