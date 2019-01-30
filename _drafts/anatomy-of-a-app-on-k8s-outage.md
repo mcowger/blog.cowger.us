@@ -1,5 +1,5 @@
 ---
-title: Anatomy of a App-on-K8S OUtage
+title: Anatomy of a App-on-K8s OUtage
 date: 2019-01-30 00:00:00 -0800
 
 ---
@@ -7,11 +7,11 @@ A lot of the work I do with customers centers around helping them become success
 
 For some customers thats helping install, for some its helping with pipelines, and for others its just help containerizing applications and getting them ready to run on Kubernetes (and all that entails).
 
-This is the story of the first outage one application took while on K8S, the root cause, and maybe how we'll fix it.   Fair warning - I can't disclose the customer, or the application.
+This is the story of the first outage one application took while on K8s, the root cause, and maybe how we'll fix it.   Fair warning - I can't disclose the customer, or the application.
 
 **The Setup**
 
-This application is a scale out Java application, running on prem for the customer on Pivotal PKS.  It receives requests from outside K8S, makes appropriate database calls (against a DB also outside K8S), and returns results.   Its accessed via an Ingress, and has a standard Service endpoint. _The one goofy thing about this application is that it does a ton of processing on startup to warmup its cache, etc, and so its about 20-24 minutes worth of startup time when it can't take requests._  Thats fine - we can deal with that via liveness and readiness checks.
+This application is a scale out Java application, running on-premises for the customer on Pivotal PKS.  It receives requests from outside K8s, makes appropriate database calls (against a DB also outside K8s), and returns results.   Its accessed via an Ingress, and has a standard Service endpoint. _The one goofy thing about this application is that it does a ton of processing on startup to warmup its cache, etc, and so its about 20-24 minutes worth of startup time when it can't take requests._  Thats fine - we can deal with that via liveness and readiness checks.
 
 It was running fine for weeks, scaled out with a Deployment to 30-ish Pods, etc.
 
@@ -43,7 +43,7 @@ The core the problem is the 25 minute startup time.  Each of the 8 nodes in the 
 
 After 3-4 minutes of working on the first node, the second node experienced the same fate, with its \~3 Pods being evicted and beginning their startup sequence.  Even worse, probably some of these Pods on the second node were ones from the first node that still hadn't started, and just got killed again.
 
-Role through the entire cluster in about 20 minutes, and you end up in a situation where all the Pods are _executing_ per the Deployment's design, but none of them are ready/live (and therefore aren't part of the Service or Ingress yet).   As a result, the application was entirely down.
+Roll through the entire cluster in about 20 minutes, and you end up in a situation where all the Pods are _executing_ per the Deployment's design, but none of them are ready/live (and therefore aren't part of the Service or Ingress yet).   As a result, the application was entirely down.
 
 **The Fix**
 
