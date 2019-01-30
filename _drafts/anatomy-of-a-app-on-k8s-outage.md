@@ -43,7 +43,7 @@ The core the problem is the 25 minute startup time.  Each of the 8 nodes in the 
 
 After 3-4 minutes of working on the first node, the second node experienced the same fate, with its \~3 Pods being evicted and beginning their startup sequence.  Even worse, probably some of these Pods on the second node were ones from the first node that still hadn't started, and just got killed again.
 
-Roll through the entire cluster in about 20 minutes, and you end up in a situation where all the Pods are _executing_ per the Deployment's design, but none of them are ready/live (and therefore aren't part of the Service or Ingress yet).   As a result, the application was entirely down.
+Roll through the entire cluster in about 20 minutes, and you end up in a situation where all the Pods are _executing_ per the Deployment's design, but none of them are ready/live (and therefore aren't part of the Service or Ingress yet).   This resulted in the complete failure of the application.
 
 **The Fix**
 
