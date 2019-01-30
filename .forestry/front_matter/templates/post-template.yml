@@ -18,7 +18,6 @@ fields:
   config:
     required: true
 pages:
-- _posts/direct-pod-access-with-stateful-sets.md
 - _posts/2017-11-06-fun-stuff-in-tokyo.md
 - _posts/2016-08-16-12 Factors in the Real World.md
 - _posts/2018-05-19-I Can No Longer Contain Myself.md
@@ -26,8 +25,10 @@ pages:
 - _posts/2015-02-11-Being a VCDX Panelist is Anti Community.md
 - _posts/2017-03-20-End of an Era.md
 - _posts/2018-05-15-Starting Over.md
-- _posts/2015-10-27-Do Data Breaches Impact Shareholder Value.md
 - _posts/2018-07-03-a-read-only-kubernetes-dashboard.md
+- _posts/2018-08-06-mac-browser-shootout.md
+- _posts/2015-10-27-Do Data Breaches Impact Shareholder Value.md
+- _posts/direct-pod-access-with-stateful-sets.md
 - _posts/2019-01-30-a-new-open-source-tool.md
 - _posts/2017-03-23-A New Stablemate.md
 - _posts/2017-04-12-a-cloud-foundry-story.md
@@ -35,5 +36,4 @@ pages:
 - _posts/2018-07-25-using-kubernetes-externaldns-with-a-home-bare-metal-k8s.md
 - _posts/2018-07-26-using-kubernetes-externaldns-metallb-with-a-home-bare-metal-k8s-part-2.md
 - _posts/2018-07-24-a-basic-validating-admission-controller-webhook-for-kubernetes.md
-- _posts/2018-08-06-mac-browser-shootout.md
 - _posts/2018-08-01-scaleio-on-pks.md
