@@ -7,7 +7,7 @@ A lot of the work I do with customers centers around helping them become success
 
 For some customers thats helping install, for some its helping with pipelines, and for others its just help containerizing applications and getting them ready to run on Kubernetes (and all that entails).
 
-This is the story of the first outage one application took while on K8S, the root cause and maybe how we'll fix it.   Fair warning - I can't disclose the customer, or the application.
+This is the story of the first outage one application took while on K8S, the root cause, and maybe how we'll fix it.   Fair warning - I can't disclose the customer, or the application.
 
 **The Setup**
 
