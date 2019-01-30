@@ -17,7 +17,7 @@ It was running fine for weeks, scaled out with a Deployment to 30-ish Pods, etc.
 
 **The Challenge**
 
-The underlying cluster (about 8 nodes) needed to be upgraded from PKS 1.2.6 to 1.3.   Now, because the customer was running PKS, thats a mostly hands off process...
+The underlying cluster (about 8 nodes) needed to be upgraded from PKS 1.2.6 to 1.3.   Now, because the customer was running PKS, that's a mostly hands off process...
 
 * Initiate upgrade
 * BOSH does the rest:
