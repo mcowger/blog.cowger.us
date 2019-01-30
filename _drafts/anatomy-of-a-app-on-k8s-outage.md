@@ -5,7 +5,7 @@ date: 2019-01-30 00:00:00 -0800
 ---
 A lot of the work I do with customers centers around helping them become successful, as quickly as possible.
 
-For some customers thats helping install, for some its helping with pipelines, and for others its just help containerizing applications and getting them ready to run on Kubernetes (and all that entails).
+For some customers that's helping install, for some its helping with pipelines, and for others its just help containerizing applications and getting them ready to run on Kubernetes (and all that entails).
 
 This is the story of the first outage one application took while on K8s, the root cause, and maybe how we'll fix it.   Fair warning - I can't disclose the customer, or the application.
 
