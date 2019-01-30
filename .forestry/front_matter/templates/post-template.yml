@@ -19,6 +19,7 @@ fields:
     required: true
 pages:
 - _posts/direct-pod-access-with-stateful-sets.md
+- _posts/a-new-open-source-tool.md
 - _posts/2017-11-06-fun-stuff-in-tokyo.md
 - _posts/2016-08-16-12 Factors in the Real World.md
 - _posts/2018-05-19-I Can No Longer Contain Myself.md
