@@ -27,7 +27,7 @@ The underlying cluster (about 8 nodes) needed to be upgraded from PKS 1.2.6 to 1
     * Create new Node from new image on IaaS
     * Add node to cluster
 
-Now in PKS, each node really only takes about 3-4 minutes to do this, and its all hands off.
+Now in PKS, each node really only takes about 3-4 minutes to do this, and its all handled by the system.
 
 **The Event**
 
