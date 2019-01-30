@@ -11,7 +11,7 @@ This is the story of the first outage one application took while on K8s, the roo
 
 **The Setup**
 
-This application is a scale out Java application, running on-premises for the customer on Pivotal PKS.  It receives requests from outside K8s, makes appropriate database calls (against a DB also outside K8s), and returns results.   Its accessed via an Ingress, and has a standard Service endpoint. _The one goofy thing about this application is that it does a ton of processing on startup to warmup its cache, etc, and so its about 20-24 minutes worth of startup time when it can't take requests._  Thats fine - we can deal with that via liveness and readiness checks.
+This application is a scale out Java application, running on-premises for the customer on Pivotal PKS.  It receives requests from outside K8s, makes appropriate database calls (against a DB also outside K8s), and returns results.   Its accessed via an Ingress, and has a standard Service endpoint. _The one goofy thing about this application is that it does a ton of processing on startup to warmup its cache, etc, and so its about 20-24 minutes worth of startup time before it can take requests._  That's fine - we can deal with that via liveness and readiness checks.
 
 It was running fine for weeks, scaled out with a Deployment to 30-ish Pods, etc.
 
