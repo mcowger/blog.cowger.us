@@ -36,3 +36,4 @@ pages:
 - _posts/2018-07-26-using-kubernetes-externaldns-metallb-with-a-home-bare-metal-k8s-part-2.md
 - _posts/2018-07-24-a-basic-validating-admission-controller-webhook-for-kubernetes.md
 - _posts/2018-08-01-scaleio-on-pks.md
+- _posts/using-metallb-with-the-unifi-usg-for-in-home-kubernetes-loadbalancer-services.md
